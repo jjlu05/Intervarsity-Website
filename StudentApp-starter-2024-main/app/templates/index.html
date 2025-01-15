@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h1>WPI Intervarsity Website</h1>
+</div>
+
+<h3>Our Values</h3>
+<h3>Our Mission</h3>
+<p>
+The purpose of InterVarsity Christian Fellowship/USA
+is to establish and advance
+at colleges and universities
+witnessing communities of students and faculty
+who follow Jesus as Savior and Lord:
+growing in love for God,
+God's Word,
+God's people of every ethnicity and culture,
+and God's purposes in the world.
+</p>
+<h3>Meet Our Leaders!</h3>
+<div class = "leaders">
+<ul class = 'horizontal-list' style ="list-style-type: none">
+
+    <li>
+    <div class='thumbnail'>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ url_for('static', filename='images/female_user_large.png') }}" alt="PNG Example"></p>
+            <h3>Thumbnail label</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label2</p>
+            
+    </div>
+    </li>
+    <li>
+        <div class='thumbnail'>
+    
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="{{ url_for('static', filename='images/female_user_large.png') }}" alt="PNG Example"></p>
+                <h3>Thumbnail label</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label2</p>
+                
+        </div>
+        </li>
+
+
+
+</ul>
+</div>
+
+Joshua Gifford Profile
+Joshua Gifford
+Treasurer
+
+GlorieAnn Minnich Profile
+GlorieAnn Minnich
+Advisor
+
+David Barber Profile
+David Barber
+Worship Director
+
+Brenna Pfisterer Profile
+Brenna Pfisterer
+Communications Director
+
+Ethan Glasby Profile
+Ethan Glasby
+Bible Study Director
+
+Elijah Jones Profile
+Elijah Jones
+Outreach Director
+<!-- some type of carousel here with pictures -->
+{% endblock %}
+
